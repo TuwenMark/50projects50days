@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function ExpandingCards() {
   return (
-  <div className="w-full h-[100vh] flex  ">
+  <>
     <Image src="https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="Explore The World" width={1000} height={1000} className="flex-1"/>
 
     <Image src={"https://images.unsplash.com/photo-1572276596237-5db2c3e16c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"} alt="Wild Forest" width={1000} height={1000} className="flex-1"/>
@@ -14,5 +14,5 @@ export default function ExpandingCards() {
     height={1000} className="flex-1"/>
 
     <Image src={"https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"} alt="Mountains - Clouds" width={1000} height={1000} className="flex-1"/>
-  </div>
+  </>
 )} 
