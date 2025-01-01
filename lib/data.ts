@@ -34,4 +34,11 @@ export const images = [
     height: 1000,
     text: 'Mountains - Clouds',
   },
-]
+] as const
+
+export const locations = [
+  {
+    title: 'day01 Expanding Cards',
+    value: '/day01_ExpandingCards',
+  },
+] as const
