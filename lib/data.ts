@@ -39,10 +39,10 @@ export const images = [
 export const locations = [
   {
     title: 'day01 Expanding Cards',
-    value: '/day01_ExpandingCards',
+    value: '/day01_expanding-cards',
   },
   {
     title: 'day02 Progress Steps',
-    value: '/day02_ProgressSteps',
+    value: '/day02_progress-steps',
   },
 ] as const
