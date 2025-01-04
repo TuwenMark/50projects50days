@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --line-border-fill: #3498db;
+  --line-border-empty: #e0e0e0;
 }
 
 @media (prefers-color-scheme: dark) {

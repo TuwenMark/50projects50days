@@ -41,4 +41,8 @@ export const locations = [
     title: 'day01 Expanding Cards',
     value: '/day01_ExpandingCards',
   },
+  {
+    title: 'day02 Progress Steps',
+    value: '/day02_ProgressSteps',
+  },
 ] as const

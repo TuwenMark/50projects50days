@@ -1,5 +1,4 @@
 import clsx from 'clsx'
-import styles from './styles.module.css'
 
 type CardProps = {
   src: string
@@ -18,13 +17,21 @@ export default function Card({
 }: Readonly<CardProps>) {
   return (
     <button
-      className={clsx(styles.image, {
-        [styles.imageActive]: isActive,
-      })}
-      style={{ backgroundImage: `url(${src})`, }}
+      className={clsx(
+        'relative flex-[0.5_1_0%] m-10 h-[80vh] text-[#fff] bg-center bg-cover bg-no-repeat rounded-[50px] cursor-pointer transition-all duration-700 ease-in',
+        {
+          ['flex-[5_1_0%]']: isActive,
+        }
+      )}
+      style={{ backgroundImage: `url(${src})` }}
       onClick={() => onClick(index)}
     >
-      <h3 className={clsx(styles.h3, { [styles.h3Active]: isActive })}>
+      <h3
+        className={clsx('text-2xl absolute left-5 bottom-5 m-0 opacity-0', {
+          ['opacity-100 transition-opacity duration-300 ease-in delay-[400ms]']:
+            isActive,
+        })}
+      >
         {text}
       </h3>
     </button>
