@@ -47,8 +47,4 @@ export const locations = [
     title: 'day02 Progress Steps',
     value: '/day02_ProgressSteps',
   },
-  {
-    title: 'day03 Rotating Navigation Animation',
-    value: '/day03_RotatingNavigationAnimation',
-  },
 ] as const
