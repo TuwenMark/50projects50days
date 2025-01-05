@@ -5,7 +5,7 @@ import Card from '@/components/Card'
 import { images } from '@/lib/data'
 import { useState } from 'react'
 
-export default function ExpandingCards() {
+export default function Page() {
   const [active, setActive] = useState(0)
 
   const handleClick = (index: number) => {
@@ -13,7 +13,7 @@ export default function ExpandingCards() {
   }
 
   return (
-    <div className="font-body flex justify-center items-center h-[100vh] w-[90vw] overflow-hidden m-0">
+    <div className="font-muli flex justify-center items-center h-[100vh] w-[90vw] overflow-hidden m-0">
       {images.map((image, index) => (
         <Card
           key={image.alt}

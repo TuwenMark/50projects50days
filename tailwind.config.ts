@@ -13,7 +13,8 @@ const config: Config = {
         foreground: 'var(--foreground)',
       },
       fontFamily: {
-        body: ['Muli', 'sans-serif'],
+        muli: ['Muli', 'sans-serif'],
+        lato: ['Lato', 'sans-serif'],
       },
     },
   },
