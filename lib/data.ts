@@ -49,4 +49,7 @@ export const locations = [
     title: 'day03 Rotating Navigation Animation',
     value: '/day03_rotating-navigation-animation',
   },
+  { title: 'day04 Hidden Search',
+    value: '/day04_hidden-search',
+  },
 ] as const

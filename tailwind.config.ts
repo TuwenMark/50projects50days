@@ -15,6 +15,7 @@ const config: Config = {
       fontFamily: {
         muli: ['Muli', 'sans-serif'],
         lato: ['Lato', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
       },
     },
   },
