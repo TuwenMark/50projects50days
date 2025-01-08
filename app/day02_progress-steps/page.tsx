@@ -26,7 +26,7 @@ export default function Page() {
     }
     console.log('prev' + count)
   }
-  
+
   return (
     <div className="bg-[#f1f1f1] font-muli flex items-center justify-center h-screen overflow-hidden m-0">
       <div className="text-center">

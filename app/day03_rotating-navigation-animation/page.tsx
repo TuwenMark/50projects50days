@@ -82,7 +82,10 @@ export default function Page() {
             }`}
           >
             <i className="fas fa-home text-xl mr-[10px]"></i>
-            <Link href="#" className="transition-all duration-500 hover:text-[#ff7979] hover:font-bold">
+            <Link
+              href="#"
+              className="transition-all duration-500 hover:text-[#ff7979] hover:font-bold"
+            >
               Home
             </Link>
           </li>
@@ -92,7 +95,10 @@ export default function Page() {
             }`}
           >
             <i className="fas fa-user-alt text-xl mr-[10px]"></i>
-            <Link href="#" className="transition-all duration-500 hover:text-[#ff7979] hover:font-bold">
+            <Link
+              href="#"
+              className="transition-all duration-500 hover:text-[#ff7979] hover:font-bold"
+            >
               About
             </Link>
           </li>
@@ -102,7 +108,10 @@ export default function Page() {
             }`}
           >
             <i className="fas fa-envelope text-xl mr-[10px]"></i>
-            <Link href="#" className="transition-all duration-500 hover:text-[#ff7979] hover:font-bold">
+            <Link
+              href="#"
+              className="transition-all duration-500 hover:text-[#ff7979] hover:font-bold"
+            >
               Contact
             </Link>
           </li>

@@ -43,7 +43,8 @@ body {
   cursor: pointer;
 }
 
-.input:focus, .btn:focus {
+.input:focus,
+.btn:focus {
   outline: none;
 }
 
@@ -54,4 +55,3 @@ body {
 .search.active .btn {
   transform: translateX(198px);
 }
-
