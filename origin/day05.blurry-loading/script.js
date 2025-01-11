@@ -7,7 +7,6 @@ let timeId = setInterval(blurring, 30)
 
 function blurring() {
   loading++
-  console.log(loading)
   if (loading > 99) {
     clearInterval(timeId)
   }

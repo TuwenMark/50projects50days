@@ -50,4 +50,5 @@ export const locations = [
     value: '/day03_rotating-navigation-animation',
   },
   { title: 'day04 Hidden Search', value: '/day04_hidden-search' },
+  { title: 'day05 Blurry Loading', value: '/day05_blurry-loading' },
 ] as const
