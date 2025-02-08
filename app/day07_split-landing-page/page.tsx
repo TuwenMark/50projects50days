@@ -30,7 +30,8 @@ export default function Page() {
   return (
     <div className="font-roboto h-[100vh] overflow-hidden m-0 bg-[#333] w-[100vw] relative">
       <div
-        className={`absolute w-[${left}] h-full overflow-hidden left-0 bg-[url(/images/ps.jpg)] bg-no-repeat bg-cover before:content-[''] before:bg-[var(--left-bg-color)] before:w-full before:h-full before:absolute transition-all duration-1000 ease-in-out before:transition-all before:duration-1000 before:ease-in-out`}
+        className="absolute h-full overflow-hidden left-0 bg-[url(/images/ps.jpg)] bg-no-repeat bg-cover before:content-[''] before:bg-[var(--left-bg-color)] before:w-full before:h-full before:absolute transition-all duration-1000 ease-in-out before:transition-all before:duration-1000 before:ease-in-out"
+        style={{ width: left }}
         onMouseEnter={handleMouseEnterLeft}
         onMouseLeave={handleMouseLeave}
       >
@@ -45,7 +46,8 @@ export default function Page() {
         </a>
       </div>
       <div
-        className={`absolute w-[${right}] h-full overflow-hidden right-0 bg-[url(/images/xbox.jpg)] bg-no-repeat bg-cover before:content-[''] before:bg-[var(--right-bg-color)] before:w-full before:h-full before:absolute transition-all duration-1000 ease-in-out before:transition-all before:duration-1000 before:ease-in-out`}
+        className="absolute h-full overflow-hidden right-0 bg-[url(/images/xbox.jpg)] bg-no-repeat bg-cover before:content-[''] before:bg-[var(--right-bg-color)] before:w-full before:h-full before:absolute transition-all duration-1000 ease-in-out before:transition-all before:duration-1000 before:ease-in-out"
+        style={{ width: right }}
         onMouseEnter={handleMouseEnterRight}
         onMouseLeave={handleMouseLeave}
       >
