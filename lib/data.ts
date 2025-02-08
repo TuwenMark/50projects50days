@@ -52,4 +52,5 @@ export const locations = [
   { title: 'day04 Hidden Search', value: '/day04_hidden-search' },
   { title: 'day05 Blurry Loading', value: '/day05_blurry-loading' },
   { title: 'day06 Scroll Animation', value: '/day06_scroll-animation' },
+  { title: 'day07 Split Landing Page', value: '/day07_split-landing-page' },
 ] as const
